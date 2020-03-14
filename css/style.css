@@ -12,18 +12,29 @@
 }
 .boxflexone{
 	display: flex;
-	align-items:center;
+	justify-content: space-between;
 }
 
-}
+
 .headerbottom{
-	width: 130px;
+	width: 200px;
 	height: 50px;
 	background: transparent;
 	border-radius: 5px;
+	padding: 14px 38px;
 	
 }
+.headerbottomw{
+	width: 200px;
+	height: 50px;
+	background: transparent;
+	border-radius: 5px;
+	padding: 14px 11px;
+}
 .headerbottom:hover{
+	background: #EE4D47;
+}
+.headerbottomw:hover{
 	background: #EE4D47;
 }
 .bg{
@@ -34,11 +45,23 @@
 	font-family: Rubik;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 13px;
+line-height: 19px;
+    color: white;
+}
+.headerbottomw a{
+	text-decoration: none;
+	font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
 line-height: 19px;
     color: white;
 }
 .headerbottom a:hover{
+	text-decoration: none;
+}
+.headerbottomw a:hover{
 	text-decoration: none;
 }
 .maintext h2{
